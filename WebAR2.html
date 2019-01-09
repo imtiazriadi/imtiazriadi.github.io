@@ -1,0 +1,24 @@
+<!doctype HTML>
+<html>
+<script src="https://aframe.io/releases/0.6.1/aframe.min.js"></script>
+<script src="https://cdn.rawgit.com/jeromeetienne/AR.js/1.5.0/aframe/build/aframe-ar.js"> </script>
+  <body style='margin : 0px; overflow: hidden;'>
+    <a-scene embedded arjs='trackingMethod: best;'>
+<a-anchor hit-testing-enabled='true'>
+
+
+
+  <a-entity position="0 0 0"
+            scale="0.15 0.15 0.15"
+            rotation="0 0 0"
+            obj-model="obj: url(https://raw.githubusercontent.com/patrickhartono/webAR2/master/Catapult.obj)";
+            material="src: url(https://res.cloudinary.com/www-patrickhartono-com/image/upload/v1547006279/texture/Catapult_BaseColor.png)">
+
+
+  </a-entity>
+
+</a-anchor>
+  	<a-camera-static/>
+    </a-scene>
+  </body>
+</html>
