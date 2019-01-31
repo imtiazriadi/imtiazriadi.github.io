@@ -1,0 +1,25 @@
+<!doctype HTML>
+<html>
+<script src="https://aframe.io/releases/0.6.1/aframe.min.js"></script>
+<script src="https://cdn.rawgit.com/jeromeetienne/AR.js/1.5.0/aframe/build/aframe-ar.js"> </script>
+  <body style='margin : 0px; overflow: hidden;'>
+    <a-scene embedded arjs='trackingMethod: best;'>
+<a-anchor hit-testing-enabled='true'>
+
+
+
+  <a-entity position="0 0 0"
+            scale="0.15 0.15 0.15"
+            rotation="0 0 0"
+            obj-model="obj: url(https://res.cloudinary.com/drvtosokw/raw/upload/v1548905878/Nintendo_DS.obj)";
+            material="src: url(https://res.cloudinary.com/drvtosokw/image/upload/v1548905869/TOP_SCREEN.jpg)">
+            material="src: url(https://res.cloudinary.com/drvtosokw/image/upload/v1548905865/BELOW.jpg)">
+
+
+  </a-entity>
+
+</a-anchor>
+  	<a-camera-static/>
+    </a-scene>
+  </body>
+</html>
